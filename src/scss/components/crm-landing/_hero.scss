@@ -1,0 +1,66 @@
+.mainCrmHero {
+    overflow: hidden;
+    height: 92vh;
+    background-color: #038ccc;
+}
+
+.mainCrmHero__container {
+    height: 100%;
+}
+
+.crmHeroNav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    min-height: 80px;
+    .crmHeroNav__logo img {
+        height: 50px;
+        widows: 50px;
+    }
+    .crmHeroNav__links {
+        display: flex;
+        span {
+            margin: 0 3rem;
+            a {
+                color: #FFF;
+            }
+        }
+    }
+}
+
+.mainCrmHero__container {
+
+    height: 100%;
+
+    .crmHeroNav__container {
+
+        height: 80px;
+
+    }
+
+
+    .crmHeroInfo__container{
+
+        height: 100%;
+
+    }
+
+
+    .crmHeroImg__container{
+
+        height: 100%;
+
+    }
+}
+
+
+.crmHeroInfo{
+
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5rem;
+
+}

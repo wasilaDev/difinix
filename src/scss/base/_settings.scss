@@ -1,0 +1,84 @@
+
+// FONTS
+
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:500,600|Roboto:300,400,700');
+
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+
+
+$fontroboto : 'Roboto', sans-serif;
+
+
+$ofBlack : #20222B;
+$darkBlue : #333745;
+$ofWhite : #A5AFD7;
+$white : #FFFFFF;
+$difinixPri : #f10e75;
+$difinixSec : #ff6906;
+$difinixOfWhite : #f4f4f4;
+$difinixGray : #554a4a;
+
+
+$left : left;
+$right : right;
+$center : center;
+
+$sSize : 0.8rem;
+$mSize : 1.6rem;
+$lSize : 3.2rem;
+$xlSize : 4.8rem;
+
+
+
+$Size10 : 1rem;
+$Size20 : 2rem;
+$Size30 : 3rem;
+
+
+$boxShadow : 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+$boxShadowBlue : 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+
+
+@mixin border-bottom() {
+    border-bottom: 3px solid $wasilaBlue;
+}
+
+
+@mixin difinixGrdiant() {
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff6a05+0,f00d75+100 */
+background: #ff6a05; /* Old browsers */
+background: -moz-linear-gradient(left, #ff6a05 0%, #f00d75 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #ff6a05 0%,#f00d75 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #ff6a05 0%,#f00d75 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6a05', endColorstr='#f00d75',GradientType=1 ); /* IE6-9 */
+color: #FFF;
+
+}

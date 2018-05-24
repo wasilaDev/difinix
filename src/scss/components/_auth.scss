@@ -1,0 +1,264 @@
+#signUpContainer,
+#logInContainer{
+
+    background-color: #f4f4f4;
+    height: 100vh;
+
+}
+
+.mainLogo{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 3rem 0;
+
+    img{
+
+        height: 100px;
+        width: 100px;
+        
+    }
+
+}
+
+
+
+#signUpContainer .mainCard,
+#logInContainer .mainCard{
+
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+
+    .mainCardContent{
+
+
+
+    }
+
+}
+
+
+.form-title{
+
+    text-align: center;
+    color: $difinixGray;
+    font-weight: normal;
+    margin: 1rem 0;
+    letter-spacing: 1px;
+    font-size: 2.4rem;
+
+}
+
+
+.mainSignUpForm,
+.mainLogInForm{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #f4f4f4;
+    
+}
+
+
+.mainSignUpForm label,
+.mainLogInForm label{
+
+    font-size: $mSize
+
+}
+
+.mainSignUpForm input,
+.mainLogInForm input{
+
+    padding: 10px;
+    border: 1px solid #CCC;
+    margin-top: 1rem;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    min-width: 400px;
+    height: 1.8rem;
+}
+
+
+.mainSignUpForm .password-container,
+.mainLogInForm .password-container{
+
+    width: 100%;
+    position: relative;
+
+
+    .password-icon{
+
+        position: absolute;
+        top: 3.7rem;
+        right: 0;
+    
+    }
+
+}
+
+
+/* Change the white to any color ;) */
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+
+.swal2-container.swal2-shown {
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 9999;
+}
+
+
+
+.mainSignUpFormFooter,
+.mainLogInFormFooter{
+
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    min-width: 500px;
+    margin: 0;
+
+
+    button{
+
+        font-size: 1.5rem;
+    padding: 1rem 4rem;
+    font-weight: normal;
+
+    }
+
+
+    .switch-link {
+
+        color: gray;
+
+        span{
+
+            text-transform: uppercase;
+            margin-left: 0.7rem;
+            color: $difinixPri;
+            font-weight: 100;
+        
+    
+        }
+
+    }
+
+    .SignUpSubmit,
+    .loginSubmit{
+
+        @include difinixGrdiant;
+        margin: 2rem 0;
+
+    }
+}
+
+
+.completed-input p{
+
+    color: lightgreen;
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+
+.error-input p{
+
+    color: lightcoral;
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+
+
+.SignUpFormInput,
+.LogInFormInput{
+
+width: 100%;
+
+}
+
+
+.formFooter{
+
+    width: 40%;
+    text-align: center;
+    padding: 0;
+    margin: .3rem 0;
+
+
+    span {
+        text-transform: uppercase;
+        font-weight: 100;
+        color: #f42d4b;
+    }
+
+}
+
+
+.swal2-container .formModal{
+
+    .swal2-title{
+
+        color: $difinixPri;
+        font-weight: bold;
+        font-size: 2rem;
+        margin: 2rem 0px;
+
+    }
+
+    #swal2-content{
+
+        font-size: 2rem;
+        color: $difinixPri;
+        font-weight: bold;
+        letter-spacing: 1px;
+
+    }
+
+    .swal2-styled.swal2-confirm {
+
+        padding: 1rem 5rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 1.5rem 0;
+        @include difinixGrdiant();
+        outline: none;
+
+    }
+
+    .swal2-styled.swal2-confirm:hover {
+
+        padding: 1rem 5rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 1.5rem 0;
+        opacity: .8;
+        border: 0 !important;
+        background-color: transparent !important;
+        @include difinixGrdiant();
+
+    }
+
+
+}
+
+.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled:hover {
+    background-image: linear-gradient(to right, #ff6a05 0%, #f00d75 100%) !important;
+}
+
+.swal2-popup .swal2-styled:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}

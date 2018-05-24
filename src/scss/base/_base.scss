@@ -1,0 +1,30 @@
+html{
+
+    font-size: 62.5%;
+
+}
+
+body {
+
+    font-family: $fontroboto;
+    font-size: $mSize;
+    background-color: $white !important;
+    overflow: visible !important;
+    padding-right: 0 !important;
+    margin: 0;
+}
+
+
+#root{
+
+    direction: ltr;
+
+}
+
+
+a{
+
+    text-decoration: none;
+    color: #000;
+
+}

@@ -1,0 +1,25 @@
+.difinixNavbar .mainDifinixNavbar {
+
+    box-shadow: none;
+    background-color: #FFF;
+
+    .mainDifinixNavbar__toolbar {
+        padding: 0px 5rem;
+        min-height: 50px;
+    }
+    .mainDifinixNavbar__logo {
+        img {
+            height: 40px;
+            width: 40px;
+            margin-top: 2px;
+        }
+    }
+    .mainDifinixNavbar__links {
+        display: flex;
+        margin: 0 5rem;
+        flex: 1;
+        span {
+            margin: 0 3rem;
+        }
+    }
+}
